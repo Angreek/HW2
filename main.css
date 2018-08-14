@@ -1,0 +1,17 @@
+@import "./CSS/contactpage.css";
+
+.nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: cornflowerblue;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+

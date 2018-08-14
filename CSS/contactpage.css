@@ -1,0 +1,35 @@
+@import '../main.css';
+body{
+    background-color: red;
+}
+
+#login{
+    margin: 20px;
+    border-radius: 50px;
+}
+#password{
+    margin: 20px;
+    border-radius: 50px;
+}
+#comments{
+    margin: 20px;
+
+}
+form{
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+.label{
+    margin-left: 30px;
+    font-family: "Malgun Gothic";
+    font-weight: bold;
+    font-size: large;
+}
+.submit{
+    margin-left: 250px;
+    background-color: blueviolet;
+    color: wheat;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50px;
+}

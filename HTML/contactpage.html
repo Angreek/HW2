@@ -11,11 +11,13 @@
     <title>Document</title>
 </head>
 <body>
-<div>
+<div class="client_massages">
     <form action="">
-        <label for="" class="label"></label><input type="text" value="" id="login"><br>
-        <label for="" class="label"></label><input type="text" value="" id="password"><br>
-        <label for="" class="label"></label><textarea name="name" id="" cols="30" rows="10" id="comments"></textarea><br>
+        <label for="clientName" class="label"></label><input type="text" value="Name" id="clientName"><br>
+        <label for="address" class="label"></label><input type="text" value="Post Address*" id="address"><br>
+        <label for="comments" class="label"></label><textarea name="clientMessage" cols="30" rows="10" id="comments" placeholder="Type your message here*"></textarea><br>
+        <span><label for="sendfile" class="label"></label><input type="file" name="file" multiple>
+        <input type="submit" class="submit" value="Send"></span><br>
         <input type="submit" class="submit">
     </form>
 

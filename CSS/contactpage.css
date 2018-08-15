@@ -1,35 +1,62 @@
 @import '../main.css';
-body{
-    background-color: red;
+body{                           /*test*/
+    background-color: deepskyblue;
 }
+span {
+    margin: 30px;
+    margin-left: 300px;
+    height: 30px;
+    width: 350px;
+}
+#clientName {
+    margin: 30px;
+    margin-left: 300px;
+    height: 30px;
+    width: 350px;
+}
+#address {
+    margin: 30px;
+    margin-left: 300px;
+    height: 30px;
+    width: 350px;
+}
+#comments {
+    margin: 30px;
+    margin-left: 300px;
+    height: 30px;
+    width: 350px;
+}
+.sendfile {
+    margin: 30px;
+    margin-left: 300px;
+    height: 30px;
+    width: 350px;
+}
+form {
+    margin: 200px;
+    background-color: white;
 
-#login{
-    margin: 20px;
-    border-radius: 50px;
-}
-#password{
-    margin: 20px;
-    border-radius: 50px;
-}
-#comments{
-    margin: 20px;
 
 }
-form{
-    background-color: lightgrey;
-    border-radius: 20px;
-}
-.label{
+/*.label{
     margin-left: 30px;
-    font-family: "Malgun Gothic";
     font-weight: bold;
-    font-size: large;
+    font-size: medium;
 }
-.submit{
+.submit{                           !*стиль для submit*!
     margin-left: 250px;
-    background-color: blueviolet;
-    color: wheat;
+    background-color: blue;
+    color: white;
     font-size: 25px;
     font-weight: bold;
-    border-radius: 50px;
 }
+.client_massages {
+    align-content: center;
+}
+:-moz-placeholder {               !*стиль для placeholder*!
+    color: blue;
+}
+::-webkit-input-placeholder {     !*стиль для placeholder*!
+    color: blue;
+}
+*:focus {outline: none;}*/

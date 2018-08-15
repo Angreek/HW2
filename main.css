@@ -1,17 +1,27 @@
 @import "./CSS/contactpage.css";
 
-.nav{
+.nav {
+    display: block;
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: white;
     color: cornflowerblue;
 }
-ul{
+ul {
     list-style: none;
     display: inline-block;
 }
-ul li{
+ul li {
     display: inline-block;
     margin-left: 50px;
 }
 
+a {
+    color: cornflowerblue;
+}
+a :hover {
+    color: white;
+}
+a img {
+    border: none;
+}
